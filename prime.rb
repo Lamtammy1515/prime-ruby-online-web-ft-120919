@@ -10,4 +10,5 @@ def prime?(max)
      primes[0] = primes[1] = nil
    end
    
-   
+   counter = 0
+  primes.each do |p|
