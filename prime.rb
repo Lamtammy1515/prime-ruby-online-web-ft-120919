@@ -16,6 +16,6 @@ def prime?(max)
     next unless p
 break if p*p > max
     counter += 1
-    
+  end 
     (p*p).step(max,p) { |m| primes[m] = nil }
   end
