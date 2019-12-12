@@ -12,3 +12,5 @@ def prime?(max)
    
    counter = 0
   primes.each do |p|
+    
+    next unless p
