@@ -2,8 +2,8 @@
 
 
 
-def prime?(array)
+def prime?(max)
   
-  index = 0 
+
   
   if prime? == 
