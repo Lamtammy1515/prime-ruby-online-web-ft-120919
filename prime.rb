@@ -6,7 +6,7 @@ def prime?(max)
   
 
   
-  if prime? == (0..max).to_a
+  if prime?(-1) == false
      primes[0] = primes[1] = nil
    end
    
