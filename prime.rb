@@ -6,4 +6,5 @@ def prime?(max)
   
 
   
-  if prime? == 
+  if prime? == (0..max).to_a
+    
